@@ -1,0 +1,466 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.container1{
+	width: 1140px;
+	margin: auto;
+}
+
+.nav{
+	width: 100%;
+	float: left;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+}
+
+.menu{
+	width: 60%;
+	float: left;
+	margin-top: 26px;
+}
+
+.btn{
+	width: 20%;
+	float: left;
+	margin-top: 26px;
+}
+
+.menu li{
+	list-style: none;
+	display: inline-block;
+	width: 80px;
+}
+
+.menu li a{
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: red;
+}
+
+.btn button{
+	background-color: #FF6162;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.nav1{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+}
+
+.lft{
+	width: 50%;
+	float: left;
+}
+
+.rgt{
+	width: 50%;
+	float: left;
+}
+
+.lft h1{
+	font-size: 53px;
+    line-height: 52px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lft p{
+	margin-top: 20px;
+	font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+.lft a i {
+	margin-top: 20px;
+    color: gray;
+    font-size: 27px;
+    transform: 0.5s;
+}
+
+.lft a i:hover{
+	color: red;
+	transform: scale(1.5);
+	transform: 0.5s;
+}
+
+
+.heading h2{
+	text-align: center;
+    font-size: 56px;
+    color: #292640;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.heading p{
+	color: gray;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+}
+
+.image{
+	width: 100%;
+	float: left;
+	padding-bottom: 200px;
+}
+
+.im1{
+	width: 20%;
+	float: left;
+}
+
+.im2{
+	width: 20%;
+	float: left;
+}
+
+.im3{
+	width: 20%;
+	float: left;
+}
+
+.im4{
+	width: 20%;
+	float: left;
+}
+
+.im1 img{
+	width: 300px;
+	height: 400px;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+.im2 img{
+	width: 300px;
+	height: 400px;
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-left: 60px;
+}
+
+.im3 img{
+	width: 300px;
+	height: 400px;
+	margin-right: 10px;
+	margin-top: 30px;
+	margin-left: 130px;
+}
+
+.im4 img{
+	width: 300px;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 200px;
+}
+
+.fe h2{
+	text-align: center;
+    font-size: 56px;
+    color: #292640;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.fe p{
+	color: gray;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+}
+
+.fe{
+	padding-bottom: 50px;
+}
+
+.part{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.part1{
+	padding: 20px 0px;
+	width: 30%;
+	float: left;
+	background-color: #F5F5F5;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.part1 a i{
+	color: #FF6768;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 30px;
+}
+
+.part1 a i:hover{
+	color: red;
+	transform: scale(1.5);
+	transition: 0.5s;	
+}
+
+.part2 a i{
+	color: #FF6768;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 30px;
+}
+
+.part2 a i:hover{
+	color: red;
+	transform: scale(1.5);
+	transition: 0.5s;	
+}
+
+.part3 a i{
+	color: #FF6768;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 30px;
+}
+
+.part3 a i:hover{
+	color: red;
+	transform: scale(1.5);
+	transition: 0.5s;	
+}
+
+.part1 h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.part2 h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.part3 h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.part1 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+
+.part2 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.part3 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.part2{
+	padding: 20px 0px;
+	width: 30%;
+	float: left;
+	background-color: #F5F5F5;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.part3{
+	padding: 20px 0px;
+	width: 30%;
+	float: left;
+	background-color: #F5F5F5;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.par{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.par1{
+	padding: 20px 0px;
+	width: 30%;
+	float: left;
+	background-color: #F5F5F5;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.par1 a i{
+	color: #FF6768;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 30px;
+	transition: 0.5s;
+}
+
+.par1 a i:hover{
+	color: red;
+	transform: scale(1.5);
+	transition: 0.5s;	
+}
+
+.par2 a i{
+	color: #FF6768;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 30px;
+	transition: 0.5s;
+}
+
+.par2 a i:hover{
+	color: red;
+	transform: scale(1.5);
+	transition: 0.5s;	
+}
+
+.par3 a i{
+	color: #FF6768;
+	margin-bottom: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 30px;
+	transition: 0.5s;
+}
+
+.par3 a i:hover{
+	color: red;
+	transform: scale(1.5);
+	transition: 0.5s;	
+}
+
+.par1 h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.par2 h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.par3 h3{
+	margin-bottom: 10px;
+	font-size: 30px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.par1 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+
+.par2 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	margin-bottom: 42px;
+}
+
+.par3 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.par2{
+	padding: 20px 0px;
+	width: 30%;
+	float: left;
+	background-color: #F5F5F5;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.par3{
+	padding: 20px 0px;
+	width: 30%;
+	float: left;
+	background-color: #F5F5F5;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.ftext{
+	width: 100%;
+	float: left;
+	background-color: #292640;
+	text-align: center;
+	padding: 40px 0px;
+}
+
+.ftext h1{
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.ftext button{
+	background-color: #FF6162;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.ftext a i{
+	color: #94929F;
+}
+
+.sp{
+	color: #94929F;
+}
